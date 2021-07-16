@@ -1,5 +1,6 @@
 <template>
-    <div class="bus">
+    <div>
+        <div class="bus">
         <div class="top">
             <div class="row">
                 <div @click="centerDialogVisible = true"></div>
@@ -137,10 +138,13 @@
     <template #footer>
         <span class="dialog-footer">
         <el-button @click="centerDialogVisible = false">Cancel</el-button>
-        <el-button type="primary" @click="centerDialogVisible = false">Confirm</el-button>
+        <el-button type="primary" @click="centerDialogVisible = false">
+            Confirm
+        </el-button>
         </span>
     </template>
 </el-dialog>
+    </div>
 </template>
 
 <style scoped>
@@ -216,7 +220,8 @@
 </style>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, onMounted } from 'vue';
+import Bus from '../api/bus';
 
 export default defineComponent({
   name: 'bus',
@@ -233,6 +238,14 @@ export default defineComponent({
         seats: 50,
       },
     };
+
+    onMounted(() => {
+        Bus.getBusSeats(1).then(res => {
+            console.log(res);
+        }).catch(err => {
+            console.log(err);
+        });
+    });
 
     return {
       busConfig,

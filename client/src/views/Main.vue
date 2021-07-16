@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/bus/1" class="bus-card-wrapper bus-wrapper-1">
+    <div><router-link to="/bus/1" class="bus-card-wrapper bus-wrapper-1">
       <div class="bus-card-bg">
           <div class="bus-card">
         1
@@ -19,7 +19,7 @@
         3
       </div>
       </div>
-    </router-link>
+    </router-link></div>
 </template>
 
 <script lang="ts">
