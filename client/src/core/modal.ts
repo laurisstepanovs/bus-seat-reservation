@@ -140,7 +140,11 @@ const updateSeats = (busNumber) => {
 }
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-const open = (seatNumber) => {
+const open = (seatNumber, seatStatus) => {
+  if (seatStatus==="reserved"){
+    return;
+  }
+
   ElMessageBox.prompt('Please input your name', 'Tip', {
     confirmButtonText: 'OK',
     cancelButtonText: 'Cancel',

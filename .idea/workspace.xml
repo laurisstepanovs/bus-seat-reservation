@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="d77216f9-5d95-44db-8785-8a6899c39b99" name="Default Changelist" comment="master: new build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/core/modal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/core/modal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Bus.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Bus.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/BasicRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/BasicRow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/LastRowWithFiveSeats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/LastRowWithFiveSeats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/LastRowWithFourSeats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/LastRowWithFourSeats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/StartsLeft.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/StartsLeft.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/StartsRight.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/StartsRight.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/TablesRow4And4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/TablesRow4And4.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/ToiletWithSeats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/ToiletWithSeats.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +205,7 @@
       <workItem from="1628024181875" duration="611000" />
       <workItem from="1628114331384" duration="3941000" />
       <workItem from="1628162303280" duration="17979000" />
-      <workItem from="1628365992164" duration="31372000" />
+      <workItem from="1628365992164" duration="33580000" />
     </task>
     <task id="LOCAL-00001" summary="master: added package-lock.json">
       <created>1628410857495</created>
@@ -273,11 +284,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628445411135</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="master: new build">
+      <created>1628445967068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628445967068</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,13 +1,14 @@
 <template>
   <div class="row space-between">
     <template v-for="(seat, index) in seats" :key="index">
-      <div @click="open(seat.number)" :class="[seat.status === 'free' && 'seat', seat.status !== 'free' && 'seat-reserved' ]" class="cube"></div>
+      <div @click="open(seat.number, seat.status)" :class="[seat.status === 'free' && 'seat', seat.status !== 'free' && 'seat-reserved' ]" class="cube"></div>
     </template>
   </div>
 </template>
 
 <script lang="ts">
-import {defineComponent, watch} from "vue";
+import {defineComponent} from "vue";
+import open from "@/core/modal";
 
 export default defineComponent({
   name:"last-row-with-four-seats",
@@ -15,10 +16,10 @@ export default defineComponent({
     seats: Array
   },
   components: {},
-  setup(props){
-    watch(props, ()=>{
-      console.log(props.seats);
-    });
+  setup(){
+    return {
+      open
+    }
   }
 })
 </script>

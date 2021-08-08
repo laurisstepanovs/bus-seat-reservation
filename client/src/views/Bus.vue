@@ -170,4 +170,19 @@ export default defineComponent({
 .not-available {
   background-color: #cbd5e0;
 }
+
+@media only screen and (max-width: 768px) {
+  .floor-1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .bus {
+    flex-direction: column;
+  }
+
+  .el-message-box {
+    width: 323px !important;
+  }
+}
 </style>

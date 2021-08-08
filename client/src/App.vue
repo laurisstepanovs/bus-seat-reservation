@@ -21,10 +21,7 @@ body {
 }
 
 .logo-wrapper {
-  width: 100%;
-  text-align: center;
   position: absolute;
-  top:0;
 }
 
 #app {
@@ -104,5 +101,16 @@ body {
 
 .bus-card {
   color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-wrapper {
+    width: 100%;
+    top: 0;
+  }
+
+  .bus-cards {
+    margin-top:200px;
+  }
 }
 </style>
