@@ -20,3 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('/seats/{busNumber}', [SeatController::class, 'getSeats']);
+Route::post('/update/{busNumber}/{seatNumber}/{reservationName}', [SeatController::class, 'updateSeatStatus']);

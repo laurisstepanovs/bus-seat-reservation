@@ -1,4 +1,7 @@
 <template>
+  <div class="logo-wrapper">
+    <h1>LOGO</h1>
+  </div>
 <div class="bus-cards">
   <router-view/>
 </div>
@@ -10,6 +13,13 @@ html {
 }
 body {
   height: 100%;
+}
+
+.logo-wrapper {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top:0;
 }
 
 #app {

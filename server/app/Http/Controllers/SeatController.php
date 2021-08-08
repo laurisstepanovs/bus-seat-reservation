@@ -18,4 +18,13 @@ class SeatController extends BaseController
 
         return $seats;
     }
+
+    public function updateSeatStatus($busNumber, $seatNumber, $reservationName){
+        $response = DB::table('seats')
+            ->where('bus_nuber', $busNumber)
+            ->where('number', $seatNumber)
+            ->update(['status' => "reserved", 'name_of_reservator' => $reservationName]);
+
+        return $response;
+    }
 }
