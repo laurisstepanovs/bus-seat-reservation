@@ -24,13 +24,12 @@
           <BasicRow :seats="slicedSeatsArray[11]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[12]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[13]"></BasicRow>
-          <BasicRow :seats="slicedSeatsArray[14]"></BasicRow>
-          <StartsRight :seats="slicedSeatsArray[15]"></StartsRight>
+          <StartsRight :seats="slicedSeatsArray[14]"></StartsRight>
+          <BasicRow :seats="slicedSeatsArray[15]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[16]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[17]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[18]"></BasicRow>
-          <BasicRow :seats="slicedSeatsArray[19]"></BasicRow>
-          <LastRowWithFourSeats :seats="slicedSeatsArray[20]"></LastRowWithFourSeats>
+          <LastRowWithFourSeats :seats="slicedSeatsArray[19]"></LastRowWithFourSeats>
         </div>
       </div>
     </div>

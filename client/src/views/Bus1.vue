@@ -9,8 +9,7 @@
           <TablesRow4And4 :seats="slicedSeatsArray1[1]"></TablesRow4And4>
           <BasicRow :seats="slicedSeatsArray1[2]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray1[3]"></BasicRow>
-          <BasicRow :seats="slicedSeatsArray1[4]"></BasicRow>
-          <ToiletWithoutSeats></ToiletWithoutSeats>
+          <ToiletWithSeats :seats="slicedSeatsArray1[4]"></ToiletWithSeats>
         </div>
 
         <div class="floor-2">
@@ -30,7 +29,7 @@
           <BasicRow :seats="slicedSeatsArray1[17]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray1[18]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray1[19]"></BasicRow>
-          <LastRowWithFourSeats :seats="slicedSeatsArray1[20]"></LastRowWithFourSeats>
+          <LastRowWithFiveSeats :seats="slicedSeatsArray1[20]"></LastRowWithFiveSeats>
         </div>
       </div>
     </div>
@@ -55,12 +54,12 @@ export default defineComponent({
   components: {
     BasicRow,
     // LastRowWithFiveSeats,
-    LastRowWithFourSeats,
+    LastRowWithFiveSeats,
     StartsLeft,
     StartsRight,
     FristFloorFirstRow,
     TablesRow4And4,
-    ToiletWithoutSeats,
+    ToiletWithSeats,
     // ToiletWithSeats
   },
   setup() {

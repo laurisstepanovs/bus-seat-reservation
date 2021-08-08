@@ -19,13 +19,12 @@ const busConfig = [
   4,
   4,
   4,
-  4,
   2,
   4,
   4,
   4,
   4,
-  5
+  4
 ];
 
 const busConfig1 = [
@@ -33,7 +32,7 @@ const busConfig1 = [
   8,
   4,
   4,
-  4,
+  2,
   4,
   2,
   4,

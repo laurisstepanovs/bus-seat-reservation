@@ -30,32 +30,9 @@
           <BasicRow :seats="slicedSeatsArray2[17]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[18]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[19]"></BasicRow>
-          <LastRowWithFourSeats :seats="slicedSeatsArray2[20]"></LastRowWithFourSeats>
+          <LastRowWithFiveSeats :seats="slicedSeatsArray2[20]"></LastRowWithFiveSeats>
         </div>
       </div>
-
-<!--        <div class="bus">-->
-<!--            <div class="top">-->
-<!--              <template v-for="(seat, index) in seats" :key="index">-->
-<!--                <div v-if="index < limitOfOneLine" class="row">-->
-<!--                  <div v-if="seat[0].number!=='null'" :class="[seat[0].status === 'free' && 'seat', seat[0].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[0].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                  <div v-if="seat[1].number!=='null'" :class="[seat[1].status === 'free' && 'seat', seat[1].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[1].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                </div>-->
-<!--              </template>-->
-<!--            </div>-->
-<!--            <div class="bottom">-->
-<!--              <template v-for="(seat, index) in seats" :key="index">-->
-<!--                <div v-if="index >= limitOfOneLine" class="row">-->
-<!--                  <div v-if="seat[0].number!=='null'" :class="[seat[0].status === 'free' && 'seat', seat[0].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[0].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                  <div v-if="seat[1].number!=='null'" :class="[seat[1].status === 'free' && 'seat', seat[1].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[1].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                </div>-->
-<!--              </template>-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 </template>
 
@@ -79,8 +56,8 @@ export default defineComponent({
   name: 'bus',
   components: {
     BasicRow,
-    // LastRowWithFiveSeats,
-    LastRowWithFourSeats,
+    LastRowWithFiveSeats,
+    // LastRowWithFourSeats,
     StartsLeft,
     StartsRight,
     FristFloorFirstRow,
