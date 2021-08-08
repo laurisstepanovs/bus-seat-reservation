@@ -10,7 +10,7 @@
       </div>
       <div style="display: flex">
         <template v-for="(seat, index) in seats" :key="index">
-          <div @click="open(seat.number)" :class="[seat.status === 'free' && 'seat', seat.status !== 'free' && 'seat-reserved' ]" class="cube"></div>
+          <div @click="open(seat.number, seat.status)" :class="[seat.status === 'free' && 'seat', seat.status !== 'free' && 'seat-reserved' ]" class="cube"></div>
         </template>
       </div>
     </div>
@@ -19,12 +19,18 @@
 
 <script lang="ts">
 import {defineComponent} from "vue";
+import open from "@/core/modal";
 
 export default defineComponent({
   name:"toilet-with-seats",
   props:{
     seats: Array
   },
-  components: {}
+  components: {},
+  setup(){
+    return {
+      open
+    }
+  }
 })
 </script>

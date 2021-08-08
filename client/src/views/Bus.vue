@@ -1,62 +1,39 @@
 <template>
     <div>
+      <h1>JD 100</h1>
       <div class="bus">
         <div class="floor-1">
           Floor 1
           <FristFloorFirstRow></FristFloorFirstRow>
-          <StartsLeft></StartsLeft>
-          <TablesRow4And4></TablesRow4And4>
-          <BasicRow :seats="slicedSeatsArray[0]"></BasicRow>
+          <StartsLeft :seats="slicedSeatsArray[0]"></StartsLeft>
           <BasicRow :seats="slicedSeatsArray[1]"></BasicRow>
+          <TablesRow4And4></TablesRow4And4>
           <BasicRow :seats="slicedSeatsArray[2]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[3]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[4]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[5]"></BasicRow>
           <ToiletWithoutSeats></ToiletWithoutSeats>
         </div>
 
         <div class="floor-2">
           Floor2
-          <BasicRow :seats="slicedSeatsArray[3]"></BasicRow>
-          <StartsLeft></StartsLeft>
-          <BasicRow :seats="slicedSeatsArray[4]"></BasicRow>
-          <BasicRow :seats="slicedSeatsArray[5]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[6]"></BasicRow>
-          <BasicRow :seats="slicedSeatsArray[7]"></BasicRow>
+          <StartsLeft :seats="slicedSeatsArray[7]"></StartsLeft>
           <BasicRow :seats="slicedSeatsArray[8]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[9]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[10]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[11]"></BasicRow>
-          <StartsRight></StartsRight>
           <BasicRow :seats="slicedSeatsArray[12]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[13]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[14]"></BasicRow>
-          <BasicRow :seats="slicedSeatsArray[15]"></BasicRow>
-          <LastRowWithFourSeats></LastRowWithFourSeats>
-<!--          <LastRowWithFiveSeats></LastRowWithFiveSeats>-->
-<!--          <ToiletWithSeats></ToiletWithSeats>-->
+          <StartsRight :seats="slicedSeatsArray[15]"></StartsRight>
+          <BasicRow :seats="slicedSeatsArray[16]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[17]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[18]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[19]"></BasicRow>
+          <LastRowWithFourSeats :seats="slicedSeatsArray[20]"></LastRowWithFourSeats>
         </div>
       </div>
-
-<!--        <div class="bus">-->
-<!--            <div class="top">-->
-<!--              <template v-for="(seat, index) in seats" :key="index">-->
-<!--                <div v-if="index < limitOfOneLine" class="row">-->
-<!--                  <div v-if="seat[0].number!=='null'" :class="[seat[0].status === 'free' && 'seat', seat[0].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[0].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                  <div v-if="seat[1].number!=='null'" :class="[seat[1].status === 'free' && 'seat', seat[1].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[1].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                </div>-->
-<!--              </template>-->
-<!--            </div>-->
-<!--            <div class="bottom">-->
-<!--              <template v-for="(seat, index) in seats" :key="index">-->
-<!--                <div v-if="index >= limitOfOneLine" class="row">-->
-<!--                  <div v-if="seat[0].number!=='null'" :class="[seat[0].status === 'free' && 'seat', seat[0].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[0].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                  <div v-if="seat[1].number!=='null'" :class="[seat[1].status === 'free' && 'seat', seat[1].status !== 'free' && 'reserved' ]" @click="centerDialogVisible = true">{{seat[1].number}}</div>-->
-<!--                  <div v-else class="exit"></div>-->
-<!--                </div>-->
-<!--              </template>-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 </template>
 
@@ -121,7 +98,7 @@ export default defineComponent({
 .floor-1{
   width: auto;
   height: auto;
-  background-color:rgba(157, 150, 144, 0.646);
+  background-color:#f7f7f7;
   display: inline-block;
   margin-right: 40px;
 }
@@ -129,7 +106,7 @@ export default defineComponent({
 .floor-2{
   width: auto;
   height: auto;
-  background-color:rgba(157, 150, 144, 0.646);
+  background-color:#f7f7f7;
   display: inline-block;
 }
 
@@ -158,6 +135,10 @@ export default defineComponent({
 
 .seat {
   background-color: greenyellow;
+}
+
+.seat:hover {
+  background-color: green;
 }
 
 .seat-reserved {
@@ -190,5 +171,20 @@ export default defineComponent({
 
 .not-available {
   background-color: #cbd5e0;
+}
+
+@media only screen and (max-width: 768px) {
+  .floor-1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .bus {
+    flex-direction: column;
+  }
+
+  .el-message-box {
+    width: 323px !important;
+  }
 }
 </style>

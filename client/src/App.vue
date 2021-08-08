@@ -1,6 +1,6 @@
 <template>
   <div class="logo-wrapper">
-    <h1>LOGO</h1>
+    <img class="logo-size" src="media/logo.jpg" alt="Logo">
   </div>
 <div class="bus-cards">
   <router-view/>
@@ -15,11 +15,13 @@ body {
   height: 100%;
 }
 
+.logo-size {
+  width: 200px;
+  height: 200px;
+}
+
 .logo-wrapper {
-  width: 100%;
-  text-align: center;
   position: absolute;
-  top:0;
 }
 
 #app {
@@ -99,5 +101,16 @@ body {
 
 .bus-card {
   color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-wrapper {
+    width: 100%;
+    top: 0;
+  }
+
+  .bus-cards {
+    margin-top:600px;
+  }
 }
 </style>
