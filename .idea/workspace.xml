@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77216f9-5d95-44db-8785-8a6899c39b99" name="Default Changelist" comment="master: updated base url">
+    <list default="true" id="d77216f9-5d95-44db-8785-8a6899c39b99" name="Default Changelist" comment="master: new build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/core/modal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/core/modal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Bus.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Bus.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Bus1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Bus1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Bus2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Bus2.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +194,7 @@
       <workItem from="1628024181875" duration="611000" />
       <workItem from="1628114331384" duration="3941000" />
       <workItem from="1628162303280" duration="17979000" />
-      <workItem from="1628365992164" duration="29915000" />
+      <workItem from="1628365992164" duration="30759000" />
     </task>
     <task id="LOCAL-00001" summary="master: added package-lock.json">
       <created>1628410857495</created>
@@ -249,7 +245,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628441328513</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="master: last fixes">
+      <created>1628444320556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628444320556</updated>
+    </task>
+    <task id="LOCAL-00009" summary="master: new build">
+      <created>1628444420509</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628444420509</updated>
+    </task>
+    <task id="LOCAL-00010" summary="master: new build">
+      <created>1628444535941</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628444535941</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +288,8 @@
     <MESSAGE value="master: added package-lock.json" />
     <MESSAGE value="master: updated gitignore" />
     <MESSAGE value="master: updated base url" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: updated base url" />
+    <MESSAGE value="master: last fixes" />
+    <MESSAGE value="master: new build" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: new build" />
   </component>
 </project>
