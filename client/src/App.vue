@@ -110,7 +110,7 @@ body {
   }
 
   .bus-cards {
-    margin-top:200px;
+    margin-top:450px;
   }
 }
 </style>
