@@ -7,13 +7,18 @@
 </template>
 
 <script lang="ts">
-import {defineComponent} from "vue";
+import {defineComponent, watch} from "vue";
 
 export default defineComponent({
   name:"last-row-with-four-seats",
   props:{
     seats: Array
   },
-  components: {}
+  components: {},
+  setup(props){
+    watch(props, ()=>{
+      console.log(props.seats);
+    });
+  }
 })
 </script>

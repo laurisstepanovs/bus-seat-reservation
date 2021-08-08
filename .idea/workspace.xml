@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d77216f9-5d95-44db-8785-8a6899c39b99" name="Default Changelist" comment="master: updated base url">
+      <change afterPath="$PROJECT_DIR$/client/src/views/Bus1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/Bus2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/css/app.efbffac7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/css/chunk-vendors.77bbbce0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/fonts/element-icons.abe71f7d.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/fonts/element-icons.d9491be2.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/js/app.e341839b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/js/app.e341839b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/js/chunk-vendors.3c95baae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/js/chunk-vendors.3c95baae.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/media/bus1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/media/bus2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/dist/media/bus3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/bus.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/bus.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/core/modal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/core/modal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/Bus.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/Bus.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/LastRowWithFourSeats.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/LastRowWithFourSeats.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/rows/TablesRow4And4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/rows/TablesRow4And4.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/server/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/server/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/server/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/server/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/server/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/server/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/server/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/server/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/server/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/server/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/server/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/server/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/server/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/server/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/server/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/server/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/server/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/server/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/server/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/server/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/server/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/server/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/server/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/server/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/server/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/server/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/server/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/server/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/server/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/server/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/server/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/server/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/server/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/server/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/server/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/server/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/server/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/server/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/server/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/server/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/server/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/server/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/server/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/http-kernel" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1vcPPGfzCq7FCMnoUnReivrxQjK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/views" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/client/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/views" />
+      <recent name="$PROJECT_DIR$/client/src/views/rows" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d77216f9-5d95-44db-8785-8a6899c39b99" name="Default Changelist" comment="" />
+      <created>1626858378114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626858378114</updated>
+      <workItem from="1626858379546" duration="7947000" />
+      <workItem from="1626955031795" duration="1213000" />
+      <workItem from="1627519802218" duration="590000" />
+      <workItem from="1627938830141" duration="1042000" />
+      <workItem from="1628024181875" duration="611000" />
+      <workItem from="1628114331384" duration="3941000" />
+      <workItem from="1628162303280" duration="17979000" />
+      <workItem from="1628365992164" duration="27052000" />
+    </task>
+    <task id="LOCAL-00001" summary="master: added package-lock.json">
+      <created>1628410857495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628410857495</updated>
+    </task>
+    <task id="LOCAL-00002" summary="master: added package-lock.json">
+      <created>1628413643241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628413643241</updated>
+    </task>
+    <task id="LOCAL-00003" summary="master: added package-lock.json">
+      <created>1628414411981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628414411981</updated>
+    </task>
+    <task id="LOCAL-00004" summary="master: updated base url">
+      <created>1628421970293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628421970293</updated>
+    </task>
+    <task id="LOCAL-00005" summary="master: updated gitignore">
+      <created>1628426416560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628426416561</updated>
+    </task>
+    <task id="LOCAL-00006" summary="master: updated base url">
+      <created>1628427101720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628427101720</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="master: added package-lock.json" />
+    <MESSAGE value="master: updated gitignore" />
+    <MESSAGE value="master: updated base url" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: updated base url" />
+  </component>
+</project>

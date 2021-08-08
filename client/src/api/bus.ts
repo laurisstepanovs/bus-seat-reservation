@@ -6,7 +6,7 @@ export default {
     return Api().post("/seats/"+bus);
   },
 
-  updateSeatStatus(bus:string | string[], seatNumber: number, reservationName:string) {
+  updateSeatStatus(bus, seatNumber: number, reservationName:string) {
     return Api().post("/update/"+bus+"/"+seatNumber+"/"+reservationName);
   }
 };

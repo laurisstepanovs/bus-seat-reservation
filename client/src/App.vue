@@ -1,6 +1,6 @@
 <template>
   <div class="logo-wrapper">
-    <h1>LOGO</h1>
+    <img class="logo-size" src="media/logo.jpg" alt="Logo">
   </div>
 <div class="bus-cards">
   <router-view/>
@@ -13,6 +13,11 @@ html {
 }
 body {
   height: 100%;
+}
+
+.logo-size {
+  width: 200px;
+  height: 200px;
 }
 
 .logo-wrapper {
