@@ -194,7 +194,7 @@
       <workItem from="1628024181875" duration="611000" />
       <workItem from="1628114331384" duration="3941000" />
       <workItem from="1628162303280" duration="17979000" />
-      <workItem from="1628365992164" duration="30759000" />
+      <workItem from="1628365992164" duration="31372000" />
     </task>
     <task id="LOCAL-00001" summary="master: added package-lock.json">
       <created>1628410857495</created>
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628444535941</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="master: new build">
+      <created>1628445411135</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628445411135</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
