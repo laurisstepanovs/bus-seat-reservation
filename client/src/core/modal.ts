@@ -6,7 +6,8 @@ import {ref} from "vue";
 
 const busConfig = [
   2,
-  8,
+  4,
+  4,
   4,
   4,
   4,
@@ -29,7 +30,9 @@ const busConfig = [
 
 const busConfig1 = [
   2,
-  8,
+  4,
+  4,
+  4,
   4,
   4,
   2,
@@ -53,7 +56,7 @@ const busConfig1 = [
 
 const busConfig2 = [
   2,
-  8,
+  4,
   4,
   4,
   4,

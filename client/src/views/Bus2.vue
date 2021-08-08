@@ -6,18 +6,19 @@
           Floor 1
           <FristFloorFirstRow></FristFloorFirstRow>
           <StartsLeft :seats="slicedSeatsArray2[0]"></StartsLeft>
-          <TablesRow4And4 :seats="slicedSeatsArray2[1]"></TablesRow4And4>
+          <BasicRow :seats="slicedSeatsArray2[1]"></BasicRow>
+          <TablesRow4And4></TablesRow4And4>
           <BasicRow :seats="slicedSeatsArray2[2]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[3]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[4]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray2[5]"></BasicRow>
           <ToiletWithoutSeats></ToiletWithoutSeats>
         </div>
 
         <div class="floor-2">
           Floor2
-          <BasicRow :seats="slicedSeatsArray2[5]"></BasicRow>
-          <StartsLeft :seats="slicedSeatsArray2[6]"></StartsLeft>
-          <BasicRow :seats="slicedSeatsArray2[7]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray2[6]"></BasicRow>
+          <StartsLeft :seats="slicedSeatsArray2[7]"></StartsLeft>
           <BasicRow :seats="slicedSeatsArray2[8]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[9]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[10]"></BasicRow>
@@ -25,12 +26,13 @@
           <BasicRow :seats="slicedSeatsArray2[12]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[13]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[14]"></BasicRow>
-          <StartsRight :seats="slicedSeatsArray2[15]"></StartsRight>
-          <BasicRow :seats="slicedSeatsArray2[16]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray2[15]"></BasicRow>
+          <StartsRight :seats="slicedSeatsArray2[16]"></StartsRight>
           <BasicRow :seats="slicedSeatsArray2[17]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[18]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray2[19]"></BasicRow>
-          <LastRowWithFiveSeats :seats="slicedSeatsArray2[20]"></LastRowWithFiveSeats>
+          <BasicRow :seats="slicedSeatsArray2[20]"></BasicRow>
+          <LastRowWithFiveSeats :seats="slicedSeatsArray2[21]"></LastRowWithFiveSeats>
         </div>
       </div>
     </div>

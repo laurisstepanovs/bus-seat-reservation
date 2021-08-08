@@ -6,30 +6,32 @@
           Floor 1
           <FristFloorFirstRow></FristFloorFirstRow>
           <StartsLeft :seats="slicedSeatsArray[0]"></StartsLeft>
-          <TablesRow4And4 :seats="slicedSeatsArray[1]"></TablesRow4And4>
+          <BasicRow :seats="slicedSeatsArray[1]"></BasicRow>
+          <TablesRow4And4></TablesRow4And4>
           <BasicRow :seats="slicedSeatsArray[2]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[3]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[4]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[5]"></BasicRow>
           <ToiletWithoutSeats></ToiletWithoutSeats>
         </div>
 
         <div class="floor-2">
           Floor2
-          <BasicRow :seats="slicedSeatsArray[5]"></BasicRow>
-          <StartsLeft :seats="slicedSeatsArray[6]"></StartsLeft>
-          <BasicRow :seats="slicedSeatsArray[7]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[6]"></BasicRow>
+          <StartsLeft :seats="slicedSeatsArray[7]"></StartsLeft>
           <BasicRow :seats="slicedSeatsArray[8]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[9]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[10]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[11]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[12]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[13]"></BasicRow>
-          <StartsRight :seats="slicedSeatsArray[14]"></StartsRight>
-          <BasicRow :seats="slicedSeatsArray[15]"></BasicRow>
+          <BasicRow :seats="slicedSeatsArray[14]"></BasicRow>
+          <StartsRight :seats="slicedSeatsArray[15]"></StartsRight>
           <BasicRow :seats="slicedSeatsArray[16]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[17]"></BasicRow>
           <BasicRow :seats="slicedSeatsArray[18]"></BasicRow>
-          <LastRowWithFourSeats :seats="slicedSeatsArray[19]"></LastRowWithFourSeats>
+          <BasicRow :seats="slicedSeatsArray[19]"></BasicRow>
+          <LastRowWithFourSeats :seats="slicedSeatsArray[20]"></LastRowWithFourSeats>
         </div>
       </div>
     </div>
